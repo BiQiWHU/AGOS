@@ -5,7 +5,7 @@ Source code of our AGOS framework, published in TGRS2022
 
 # Citation and Reference
 If you find this project useful, please cite:
-
+  
 @ARTICLE{Bi2022TGRS,
   author={Bi, Qi and Zhou, Beichen and Qin, Kun and Ye, Qinghao and Xia, Gui-Song},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
@@ -15,7 +15,7 @@ If you find this project useful, please cite:
   number={},
   pages={1-1},
   doi={10.1109/TGRS.2022.3201755}}
-  
+    
   Other our former works related to Deep MIL may also be cited as:
   
   @ARTICLE{Bi2021MIDCNet,
