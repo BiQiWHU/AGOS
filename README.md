@@ -5,9 +5,25 @@ This work has been published in ```IEEE Transactions on Geoscience and Remote Se
 
 # Project Overview
 
+![avatar](/framework.png)
 
 # Enviroment dependency
 
+The code is implemented on top of the Python3, and there are only a few dependencies that a development need to config.
+Before starting the code, please ensure the below packages and the corresponding versions are available.
+```
+Python > 3.5
+
+Tensorflow > 1.6
+
+OpenCV > 3
+
+Numpy > 1.16
+```
+The datasets this paper use are all publicly available, and can be found in 
+<a href="https://captain-whu.github.io/AID/"> AID</a>,
+<a href="http://weegee.vision.ucmerced.edu/datasets/landuse.html"> UCM</a>, and 
+<a href="http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html"> NWPU</a>, respectively
 
 # How to run the code?
 
@@ -37,4 +53,9 @@ If you find this project useful, please cite:
   pages={4911-4926},
   doi={10.1109/TIP.2020.2975718}}
   ```
+  
+# Contact Information
 
+Qi Bi
+
+q_bi@whu.edu.cn   2009biqi@163.com
