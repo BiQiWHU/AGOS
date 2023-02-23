@@ -15,14 +15,14 @@ It has been published in TGRS2022 entitled as All Grains, One Scheme (AGOS): Lea
 # Citation and Reference
 If you find this project useful, please cite:
 ```
-@ARTICLE{Bi2022TGRS,
+@ARTICLE{Bi2022AGOS,
   author={Bi, Qi and Zhou, Beichen and Qin, Kun and Ye, Qinghao and Xia, Gui-Song},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={All Grains, One Scheme (AGOS): Learning Multi-grain Instance Representation for Aerial Scene Classification}, 
+  title={All Grains, One Scheme (AGOS): Learning Multigrain Instance Representation for Aerial Scene Classification}, 
   year={2022},
-  volume={},
+  volume={60},
   number={},
-  pages={1-1},
+  pages={1-17},
   doi={10.1109/TGRS.2022.3201755}}
 ```
 
