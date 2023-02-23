@@ -25,10 +25,36 @@ Numpy > 1.16
 The datasets this paper use are all publicly available, and can be found in 
 <a href="https://captain-whu.github.io/AID/"> AID</a>,
 <a href="http://weegee.vision.ucmerced.edu/datasets/landuse.html"> UCM</a>, and 
-<a href="http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html"> NWPU</a>, respectively
+<a href="http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html"> NWPU</a>, respectively.
+
+The ResNet-50 pre-trained model can be downloaded from <a href="https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models"> here</a> and is supposed to put into the ```checkpoint``` file folder.
 
 # How to run the code?
+For training:
 
+Step 1, run the ```tfdata.py``` file to transfer the data into the tf.record file format.
+```
+python tfdata.py
+```
+
+Step 2, run the ```training.py``` file to start training.
+```
+python training.py
+```
+
+For testing:
+
+Run the ```test1.py file``` to test the performance of a single model.
+```
+python test1.py
+```
+
+Run the ```testall.py``` file to test the performance of all the models in the checkpoints file folder. 
+```
+python testall.py
+```
+
+Please note, before using the ```testall.py``` script, please remember to delete a file named ```checkpoint``` in the ```checkpoints``` file folder.
 
 # Citation and Reference
 If you find this project useful, please cite:
