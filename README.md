@@ -1,9 +1,11 @@
-# AGOS
+# All Grains, One Scheme (AGOS)
 Offcial implementation of our AGOS framework for remote sensing scene classification.
 
 This work has been published in ```IEEE Transactions on Geoscience and Remote Sensing``` entitled as ```All Grains, One Scheme (AGOS): Learning Multi-grain Instance Representation for Aerial Scene Classification```.
 
 # Project Overview
+
+The key idea of this prject is to extend the deep multiple instance learning into a multi-grain form. The multi-grain multi-instance learning is suitable to describe the varied object sizes and scale differences in remote sensing scenes. An technique framework of the proposed method is attached as follows.
 
 ![avatar](/framework.png)
 
