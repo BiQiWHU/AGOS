@@ -1,7 +1,7 @@
 # AGOS
 Offcial implementation of our AGOS framework for remote sensing scene classification.
 
-It has been published in TGRS2022 entitled as All Grains, One Scheme (AGOS): Learning Multi-grain Instance Representation for Aerial Scene Classification
+This work has been published in ```IEEE Transactions on Geoscience and Remote Sensing``` entitled as ```All Grains, One Scheme (AGOS): Learning Multi-grain Instance Representation for Aerial Scene Classification```.
 
 # Project Overview
 
